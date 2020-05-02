@@ -3,7 +3,7 @@ siteMetadata: {
 title: `Anu Unnikrishnan`,
 },
 plugins: [
-          `gatsby-plugin-sharp`,
+          `gatsby-plugin-sharp`, `gatsby-transformer-sharp`, //added this second one
           {
           resolve: `gatsby-transformer-remark`,
           options: {

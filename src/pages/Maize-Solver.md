@@ -109,7 +109,7 @@ Finally, let's talk about how to update the Q-values. Once we take an action on 
 
 <p>
 These are our main ingredients. To implement the maze solving algorithm, we simply use a loop to go through the steps in the previous section. 
-You can see the full code on my <a style="color: #FA8072;" target="_blank" href="https://github.com/anu-unnikrishnan/mAIze-solver">Github</a>.
+You can see the full code on my <a style="color: #FA8072;"  href="https://github.com/anu-unnikrishnan/mAIze-solver">Github</a>.
 </p>
 
 <h4>Training our AI</h4>

@@ -136,7 +136,7 @@ The program keeps going deeper and deeper down the game tree until it reaches a 
 </p>
 
 <p>
-You can see the full code, written in Python, on my <a style="color: #FA8072;" target="_blank" href="https://github.com/anu-unnikrishnan/tic-tac-toe">Github</a>.
+You can see the full code, written in Python, on my <a style="color: #FA8072;"  href="https://github.com/anu-unnikrishnan/tic-tac-toe">Github</a>.
 </p>
 
 <h4>Is it really unbeatable?</h4>

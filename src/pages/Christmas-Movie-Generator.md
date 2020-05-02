@@ -116,7 +116,7 @@ And finally, we want to create some new text. To begin, we choose a block of wor
 </p>
 
 <p>
-The chain then simply carries on from our new block of words, repeating the above step until it's spewed out enough new sentences to make us happy! You can see the full code, written in Python, on my <a style="color: #FA8072;" target="_blank" href="https://github.com/anu-unnikrishnan/markov-chains">Github</a>.
+The chain then simply carries on from our new block of words, repeating the above step until it's spewed out enough new sentences to make us happy! You can see the full code, written in Python, on my <a style="color: #FA8072;"  href="https://github.com/anu-unnikrishnan/markov-chains">Github</a>.
 </p>
 
 <h4>In goes (real) Christmas movie plots, out comes (fake) Christmas movie plots</h4>
@@ -135,7 +135,7 @@ I collected plots of a whole bunch of Christmas movies, and rewrote parts of the
 ![... She assumes he is the suitor her well-meaning mother is trying to set her up with, when in reality, he is the suitor her well-meaning mother is trying to set her up with.](./funplot-1.png)
 ![... Candy cane company meets a man during the busy Christmas season.](./funplot-2.png)
 
-<p>You can play around with it yourself <a style="color: #FA8072;" target="_blank" href="https://christmas-movie-generator.herokuapp.com">here</a>!</p>
+<p>You can play around with it yourself <a style="color: #FA8072;" href="https://christmas-movie-generator.herokuapp.com">here</a>!</p>
 
 
 
