@@ -31,6 +31,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-typography": "^0.16.19",
+    "sharp": "^0.25.2",
     "typography": "^0.16.19",
     "typography-theme-doelger": "^0.16.19",
     "typography-theme-funston": "^0.16.19",
