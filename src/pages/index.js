@@ -36,7 +36,7 @@ export default ({ data }) => {
                                                             {node.frontmatter.title}{" "}
                                                 <span
                                                 css={css`
-                                                color: #FF6347; //date colour
+                                                color: #FA8072; //date colour
                                                 font-size: 14px //date font size
                                                  `}
                                                  >

@@ -26,25 +26,25 @@ export default ({ data }) => (
                               <p>Worked on building secure protocols for quantum networks, such as authenticated teleportation, anonymous quantum communication, and graph state verification, with all sorts of misbehaving participants.</p>
                               <a
                               css={css`
-                              color: #00CED1`}  href="https://www.linkedin.com/in/anuunnikrishnan/">LinkedIn</a>
+                              color: #FA8072`}  href="https://www.linkedin.com/in/anuunnikrishnan/">LinkedIn</a>
                               &nbsp; / &nbsp;
                               <a
                               css={css`
-                              color: #FF6347;`} 
+                              color: #FA8072;`} 
                               href="https://github.com/anu-unnikrishnan">Github</a>
                               &nbsp; / &nbsp;
                               <a
                               css={css`
-                              color: #4169E1;`} 
+                              color: #FA8072;`} 
                               href="https://scholar.google.com/citations?user=BuH-8RUAAAAJ&hl=en">Google Scholar</a>
                                 &nbsp; / &nbsp;
                               <a
                               css={css`
-                              color: #FF8C00;`}  href="https://ora.ox.ac.uk/objects/uuid:8309d4e8-5f4c-4e86-9381-fcaf2f6626f1">PhD Thesis</a>
+                              color: #FA8072;`}  href="https://ora.ox.ac.uk/objects/uuid:8309d4e8-5f4c-4e86-9381-fcaf2f6626f1">PhD Thesis</a>
 
                               </Layout>
                               )
-//color: #FA8072; //old colour 
+//old colours: #00CED1, #FF6347, #4169E1, #FF8C00
 
 export const query = graphql`
 query {
