@@ -36,7 +36,7 @@ export default ({ data }) => {
                                                             {node.frontmatter.title}{" "}
                                                 <span
                                                 css={css`
-                                                color: #FA8072; //date colour
+                                                color: #FF6347; //date colour
                                                 font-size: 14px //date font size
                                                  `}
                                                  >
@@ -63,7 +63,7 @@ query {
                 id
                 frontmatter {
                     title
-                    date(formatString: "DD-MMM-YY")
+                    date(formatString: "DD-MMM-YY") 
                 }
                 fields {
                     slug

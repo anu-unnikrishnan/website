@@ -42,11 +42,11 @@ export default ({ children }) => {
             style={{ textDecoration: 'none' }}
             css={css`
             float: right;
-            color: #FA8072;
+            color: #FF6347;
             `}
             >
             <h4 css={css`
-            color: #FA8072;
+            color: #FF6347;
             `}>About</h4>
             </Link>
             {children}
