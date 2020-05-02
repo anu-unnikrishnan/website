@@ -19,7 +19,7 @@ export default ({ data }) => (
             </h1>
                               <p></p>
                               <h3>Currently</h3>
-                              <p>Learning about AI and how to be a better programmer at the Recurse Center.</p>
+                              <p>Learning about AI and how to be a better programmer at the Recurse Center!</p>
                               <p></p>
                               <h3>Previously</h3>
                               <p>A quantum cryptography researcher at Oxford.</p>
