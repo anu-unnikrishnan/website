@@ -24,7 +24,6 @@ plugins: [
                   name: "media" // Must match the source name ^
                 }
               }, //to here 
-              
                     {
                     resolve: `gatsby-remark-images`,
                     options: {
