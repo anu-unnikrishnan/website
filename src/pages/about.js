@@ -36,7 +36,7 @@ export default ({ data }) => (
                               <a
                               css={css`
                               color: #FA8072;`} 
-                              href="https://scholar.google.com/citations?user=BuH-8RUAAAAJ&hl=en">Google Scholar</a>
+                              href="https://arxiv.org/search/?query=anupama+unnikrishnan&searchtype=all&source=header">Publications</a>
                                 &nbsp; / &nbsp;
                               <a
                               css={css`
