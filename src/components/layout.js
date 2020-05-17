@@ -47,6 +47,7 @@ export default ({ children }) => {
             >
             <h4 css={css`
             color: #FA8072;
+            color: #fe6d73;
             `}>About</h4>
             </Link>
             {children}

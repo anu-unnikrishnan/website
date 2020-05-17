@@ -1,6 +1,7 @@
 import Typography from "typography"
 import kirkhamTheme from "typography-theme-kirkham"
 kirkhamTheme.baseFontSize = '15px' // was 20px.
+//kirkhamTheme.headerFontFamily = ["Futura"]
 kirkhamTheme.bodyFontFamily = ["Rosario"]
 
 const typography = new Typography(kirkhamTheme)

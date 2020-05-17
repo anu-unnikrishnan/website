@@ -26,7 +26,7 @@ Picking the number of layers, and the number of neurons in each layer, is someth
 Since we have two inputs and one output, let's create a simple network that has an input layer with 2 neurons, and an output layer with 1 neuron. Let's also have a single hidden layer that has 3 neurons (but we can play around with this). We're going to number our layers starting from 0. Here's what such a network looks like:
 </p>
 
-![Neural network 1](./neural-network-1.png)
+![Neural network 1](./neural-net-1.png)
 
 <p>
 The connections between neurons in different layers have <i>weights</i>, which tell us how much the input of a neuron in one layer matters to the output of a neuron in the next layer. Each neuron also has a <i>bias</i>, which is used to adjust the output. 
@@ -59,7 +59,7 @@ As for the biases matrices, we also need two of these (there are no biases for t
 Let's put these labels on our network picture:
 </p>
 
-![Neural network with labels](./neural-network-2.png)
+![Neural network with labels](./neural-net-2.png)
 
 <p>
 And to translate all that to matrix-speak:
@@ -147,18 +147,18 @@ Thanks to NumPy, it's pretty straightforward to code this in Python.
 Ideally, we want our code to generalise to a neural network with any number of neurons and layers.  So let's store all our parameters (weights, biases, change in weights, change in biases, <i>z</i>, <i>a</i>, <i>&delta;</i>) in arrays whose sizes depend on the number of layers. 
 
 <p>
-Then, we need two nested loops: one going through each epoch, and another going through each individual input. Once we're done with each input, we update the weights and biases. You can see the full code on my <a style="color: #FA8072;" href="https://github.com/anu-unnikrishnan/neural-network">Github</a>.
+Then, we need two nested loops: one going through each epoch, and another going through each individual input. Once we're done with each input, we update the weights and biases. You can see the full code on my <a style="color: #fe6d73;" href="https://github.com/anu-unnikrishnan/neural-network">Github</a>.
 </p>
 
 <p>
 To monitor how our neural network is doing, let's see how the loss decreases as we move through epochs and the network learns how to compute XOR:
 </p>
 
-![Network learning](./loss-plot.png)
+![Network learning](./loss-graph.png)
 
 <h4>Testing it out on a dataset</h4>
 <p>
-Let's try out our network on an actual dataset! We're going to use the banknote authentication <a style="color: #FA8072;" href="https://archive.ics.uci.edu/ml/datasets/banknote+authentication">data</a> from UCI. There are four columns containing image characteristics of banknotes, and a fifth column that classifies each banknote as real or fake (indicated by either 0 or 1). 
+Let's try out our network on an actual dataset! We're going to use the banknote authentication <a style="color: #fe6d73;" href="https://archive.ics.uci.edu/ml/datasets/banknote+authentication">data</a> from UCI. There are four columns containing image characteristics of banknotes, and a fifth column that classifies each banknote as real or fake (indicated by either 0 or 1). 
 </p>
 
 <p>
@@ -176,7 +176,7 @@ Then, we're going to make one modification to stochastic gradient descent to mak
 We're ready to set our freshly built neural network loose on our test data! Let's see how its predictions on whether a banknote is real or fake compare to the actual answers:
 </p>
 
-![Banknote test data loss](./banknote-loss.png)
+![Banknote test data loss](./banknote-loss-graph.png)
 
 <p>
 The loss stays pretty low for the set of test data, which our network has never seen before, so it's working! 

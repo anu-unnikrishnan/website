@@ -37,6 +37,7 @@ export default ({ data }) => {
                                                 <span
                                                 css={css`
                                                 color: #FA8072; //date colour
+                                                color: #17c3b2;
                                                 font-size: 14px //date font size
                                                  `}
                                                  >
