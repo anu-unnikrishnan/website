@@ -20,7 +20,7 @@ A neural network is made up of <i>neurons</i> in different <i>layers</i>, connec
 Picking the number of layers, and the number of neurons in each layer, is something we can play around with. To start off with an easy example, let's say we want to train our network to find the XOR (exclusive-OR) of two inputs. Here's how the XOR works:
 </p>
 
-![XOR table](./xor.png)
+![XOR table](./xor-truth-table.png)
 
 <p>
 Since we have two inputs and one output, let's create a simple network that has an input layer with 2 neurons, and an output layer with 1 neuron. Let's also have a single hidden layer that has 3 neurons (but we can play around with this). We're going to number our layers starting from 0. Here's what such a network looks like:
