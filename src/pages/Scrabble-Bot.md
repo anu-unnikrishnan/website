@@ -83,6 +83,10 @@ Next, we need to go through each possible word, and figure out where to fit it i
 By looping through every row and every column of the board, and picking the highest-scoring valid word, we can determine the best possible move of our Scrabble Bot! If no words can be made, then it should exchange a random number of its (non-high-scoring) letters, or skip its turn if the letter bag is empty. 
 </p>
 
+<p>
+For the full code, have a look at my <a style="color: #fe6d73;" href="https://github.com/anu-unnikrishnan/scrabble">Github</a>.
+</p>
+
 <h4>How well does this work?</h4>
 
 <p>
