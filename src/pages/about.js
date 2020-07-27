@@ -42,7 +42,7 @@ export default ({ data }) => (
                               color: #ffbd00;
                               text-decoration: none;
                               font-family: Playfair Display;`} 
-                              href="https://arxiv.org/a/unnikrishnan_a_1.html>Publications</a>
+                              href="https://arxiv.org/a/unnikrishnan_a_1.html">Publications</a>
                                 &nbsp;&middot;&nbsp;
                               <a
                               css={css`
